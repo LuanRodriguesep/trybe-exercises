@@ -1,0 +1,27 @@
+body {
+    background-color: #f5f5f5;
+    font-size: 20px;
+}
+
+h1 , p{
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    background-color: #252525;
+    color: white;
+}
+
+.stack:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.trybe:hover{
+    background-color: #55C28D;
+}
+
+.espn:hover {
+    background-color: #DE3D1F;
+}
