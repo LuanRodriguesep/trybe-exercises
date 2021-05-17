@@ -1,0 +1,98 @@
+body {
+    background-color: #f5f5f9;
+    
+}
+
+a{
+    text-transform: none;
+    color: inherit;
+}
+
+h1:nth-child(1){
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+h1, h2, h3{
+    color: red;
+}
+
+li {
+    font-size: 20px;
+}
+
+
+.lista-ord {
+    background-color: yellow;
+}
+
+.lista-ord li{
+    font-weight: bold;
+}
+
+.lista-ord li:nth-child(1){
+    text-transform: uppercase;
+}
+.lista-ord li:nth-child(2){
+    background-color: green;
+}
+.lista-ord li:nth-child(3){
+    text-transform: uppercase;
+}
+.lista-ord li:nth-child(4){
+    background-color: green;
+}
+
+.lista-ord li:nth-child(5){
+    text-transform: uppercase;
+}
+
+/*linguagem*/
+
+.linguagem {
+
+}
+
+.linguagem :nth-child(-n+3) {
+    color: blue;
+}
+
+.linguagem :nth-child(2){
+    background-color: pink;
+}
+
+.linguagem :nth-child(3){
+    background-color: pink;
+}
+
+/*Aliados*/
+
+.aliados li{
+    margin-top: 20px;
+    list-style: none;
+}
+
+.aliados :nth-child(1) a:hover{
+    font-weight: bold;
+    color: orange;
+}
+
+.aliados :nth-child(2) a:hover{
+    font-weight: bold;
+    color: green;
+}
+
+.aliados :nth-child(3) a:hover{
+    font-weight: bold;
+    color: black;
+}
+
+.aliados :nth-child(4) a:hover{
+    font-weight: bold;
+    color: yellow;
+}
+
+.aliados :nth-child(5) a:hover{
+    font-weight: bold;
+    color: #55C28D;
+}
