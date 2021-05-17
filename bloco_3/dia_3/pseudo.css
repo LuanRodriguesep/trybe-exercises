@@ -1,0 +1,54 @@
+body{
+    background-color: #252525;
+}
+
+h1 ,p {
+    color: white;
+}
+
+div:nth-child(3) {
+    background-color: lime;
+    font-style: italic;
+}
+
+div:nth-child(3) > h3{
+    font-family: fantasy;
+    text-decoration: underline;
+}
+
+div:nth-child(4){
+    background-color: #966EFA;
+}
+
+div:nth-child(4) > h3 {
+    color: white;
+}
+
+div:nth-child(5) {
+    background-color: blue;
+    padding: 20px;
+    font-style: italic;
+}
+
+div:nth-child(5) > h3{
+    text-transform: uppercase;
+}
+
+div:nth-child(6) {
+    background-color: green;
+
+}
+
+div:nth-child(6) > h3 {
+    font-family: cursive;
+}
+
+div:nth-child(7){
+
+    background-color: tomato;
+    font-style: italic;
+}
+
+div:nth-child(7) > h3{
+    font-size: 30px;
+}

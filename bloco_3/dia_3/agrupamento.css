@@ -17,11 +17,23 @@ ul {
     background-color: yellow;
     color: black;
 }
+.stack:active {
+    font-family: cursive;
+}
 
 .trybe:hover{
     background-color: #55C28D;
 }
 
+.trybe:active {
+    font-family: cursive;
+}
+
+
 .espn:hover {
     background-color: #DE3D1F;
+}
+
+.espn:active {
+    font-family: cursive;
 }
