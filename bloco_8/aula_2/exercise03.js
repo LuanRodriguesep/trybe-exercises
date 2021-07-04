@@ -63,14 +63,26 @@ const books = [
   },
 ];
 
-// Adicione o código do exercício aqui:
+const expectedResult = {
+  author: {
+    birthYear: 1948,
+    name: 'George R. R. Martin',
+  },
+  genre: 'Fantasia',
+  id: 1,
+  name: 'As Crônicas de Gelo e Fogo',
+  releaseYear: 1991,
+};
 
-const authorBornIn1947 = books.find((book) => {
-  return book.author.birthYear === 1947;
-})
 
-console.log(`A primeira pessoa nascida em 1947 é ${authorBornIn1947.author.name}`)
+function getNamedBook() {
+  // escreva seu código aqui
 
-//assert.strictEqual(authorBornIn1947(), 'Stephen King');
+  const livroFind = books.find((book) => {
+    
+    return book.name.length === 26
+  })
+  return livroFind
+}
 
-
+assert.deepStrictEqual(getNamedBook(), expectedResult);

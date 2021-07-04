@@ -63,14 +63,10 @@ const books = [
   },
 ];
 
-// Adicione o código do exercício aqui:
+const expectedResult = true;
 
-const authorBornIn1947 = books.find((book) => {
-  return book.author.birthYear === 1947;
-})
+function someBookWasReleaseOnThe80s() {
+  return books.some((book) => book.releaseYear >= 1980 && book.releaseYear <= 1989)
+}
 
-console.log(`A primeira pessoa nascida em 1947 é ${authorBornIn1947.author.name}`)
-
-//assert.strictEqual(authorBornIn1947(), 'Stephen King');
-
-
+assert.strictEqual(someBookWasReleaseOnThe80s(), expectedResult);

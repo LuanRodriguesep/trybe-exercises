@@ -63,14 +63,17 @@ const books = [
   },
 ];
 
-// Adicione o código do exercício aqui:
 
-const authorBornIn1947 = books.find((book) => {
-  return book.author.birthYear === 1947;
-})
+const expectedResult = false;
 
-console.log(`A primeira pessoa nascida em 1947 é ${authorBornIn1947.author.name}`)
+function authorUnique() {
+  return books.every((book) => {
+  !books.some((bookIdade) => (book.author.birthYear === bookIdade.author.birthYear) && (book.author.name!== bookIdade.author.name))})
+  
+    
+}
 
-//assert.strictEqual(authorBornIn1947(), 'Stephen King');
+//authorUnique()
 
+assert.strictEqual(authorUnique(), expectedResult);
 
