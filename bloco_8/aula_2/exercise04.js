@@ -116,6 +116,6 @@ function booksOrderedByReleaseYearDesc() {
   return lancamento
 }
 
-//console.log(booksOrderedByReleaseYearDesc())
+console.log(booksOrderedByReleaseYearDesc())
 
-assert.deepStrictEqual(booksOrderedByReleaseYearDesc(), expectedResult);
+//assert.deepStrictEqual(booksOrderedByReleaseYearDesc(), expectedResult);
